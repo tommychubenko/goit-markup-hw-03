@@ -17,6 +17,16 @@ body {
 
 button {
   cursor: pointer;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 /* Спочатку приберемо крапки зі списку */
@@ -32,6 +42,15 @@ button {
   list-style-type: none;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Лого, Нав и Хедер */
 
 /* ЛОГО */
@@ -44,6 +63,8 @@ button {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .studio-black {
@@ -60,12 +81,29 @@ button {
 
 /* НАВ */
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  margin-left: 93px;
+}
+
+.nav-links .item:not(:first-child) {
+  margin-left: 50px;
+}
+
 .nav-links .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
   font-weight: 500;
   text-decoration: none;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  display: block;
 }
 
 .nav-links .link:hover,
@@ -75,12 +113,24 @@ button {
 
 /* Лінки з хедеру */
 
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-contacts .item:not(:first-child) {
+  margin-left: 50px;
+}
+
 .header-contacts .link {
   color: var(--primary-text-color);
   font-weight: 500;
   text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .header-contacts .link:hover,
@@ -95,6 +145,7 @@ button {
 .hero {
   background-color: var(--background-color-number-two);
   width: 100%;
+  text-align: center;
 }
 
 .hero .header {
