@@ -35,16 +35,19 @@ ul {
 .header-contacts,
 .unique-list,
 .images-samples,
-.our-team,
+.our-team .list,
 .footer-adress,
 .selector-list,
-.work-sectors {
+.work-sectors,
+.images-samples .list {
   list-style-type: none;
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .section {
   padding-top: 94px;
@@ -146,6 +149,8 @@ ul {
   background-color: var(--background-color-number-two);
   width: 100%;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero .header {
@@ -155,6 +160,7 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .button-hero {
@@ -170,11 +176,25 @@ ul {
 
 /* Наші переваги */
 
+.unique-list {
+  display: flex;
+}
+
+.unique-list .item {
+  width: calc((100%-90px) / 4);
+  margin-right: 30px;
+}
+
+.unique-list .item:last-child {
+  margin-right: 0;
+}
+
 .unique-list .header {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .unique-list .text {
@@ -183,11 +203,38 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.theme-topic {
+.images-samples {
   font-weight: 700;
   font-size: 36;
   line-height: 1.17;
+}
+
+.images-samples .header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
   text-align: center;
+}
+
+.images-samples .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images-samples .image {
+  display: block;
+}
+
+/* Наша команда */
+
+.our-team .section-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .our-team .header {
@@ -195,6 +242,7 @@ ul {
   font-weight: 500;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  /* text-align: center; */
 }
 
 .our-team .text {
