@@ -172,6 +172,7 @@ ul {
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1.87;
+  padding: 10px 32px;
 }
 
 /* Наші переваги */
@@ -328,6 +329,7 @@ ul {
   font-weight: 500;
   letter-spacing: 0.03em;
   line-height: 1.62;
+  padding: 6px 22px;
 
   background-color: #f5f4fa;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -350,6 +352,7 @@ ul {
 
 .work-sectors .item {
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
   /* background-color: #2196f3; */
 }
 
@@ -375,6 +378,7 @@ ul {
   letter-spacing: 0.06em;
   /* background-color: brown; */
   margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .work-sectors .text {
@@ -382,4 +386,6 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
