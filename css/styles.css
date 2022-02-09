@@ -235,6 +235,25 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+  text-align: center;
+  /* background-color: #2196f3; */
+}
+
+.our-team .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team .item {
+  /* background-color: #2196f3; */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team .image {
+  display: block;
+  margin-bottom: 30px;
 }
 
 .our-team .header {
@@ -242,7 +261,9 @@ ul {
   font-weight: 500;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  /* text-align: center; */
+  /* background-color: aqua; */
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .our-team .text {
@@ -250,11 +271,23 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .footer {
   background-color: var(--background-color-number-two);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
+.footer-adress {
+  margin-top: 20px;
+}
+.footer-adress .item {
+  margin-bottom: 9px;
+}
+
 .footer-adress .link {
   line-height: 1.71;
   color: #ffffff;
@@ -275,11 +308,31 @@ ul {
 
 /* Селектор */
 
+.portfolio {
+  /* background-color: #2196f3; */
+}
+
 .selector-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  /* background-color: aquamarine; */
+}
+
+.selector-list .item {
+  margin-right: 8px;
+}
+
+.selector-list .button {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.03em;
   line-height: 1.62;
+
+  background-color: #f5f4fa;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .selector-list .button:hover,
@@ -288,19 +341,40 @@ ul {
   background-color: var(--accent-text-color);
 }
 
+.work-sectors {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: tomato; */
+}
+
+.work-sectors .item {
+  margin-bottom: 30px;
+  /* background-color: #2196f3; */
+}
+
+.work-sectors .item:nth-child(n + 7) {
+  margin-bottom: 0;
+}
+
 .work-sectors .link {
   text-decoration: none;
 }
 .work-sectors .image {
+  display: block;
   width: 370px;
-  height: 294px;
+  background-color: aqua;
+  margin-bottom: 20px;
 }
 
 .work-sectors .header {
   color: var(--primary-text-color);
   font-weight: 700;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  /* background-color: brown; */
+  margin-bottom: 4px;
 }
 
 .work-sectors .text {
