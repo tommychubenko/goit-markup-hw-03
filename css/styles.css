@@ -72,7 +72,7 @@ ul {
   letter-spacing: 0.03em;
   padding-top: 24px;
   padding-bottom: 25px;
-  background-color: coral;
+  /* background-color: lightcoral */
   display: block;
   width: 145px;
 }
@@ -93,13 +93,16 @@ ul {
 
 .main-nav {
   display: flex;
-  background-color: teal;
+  /* background-color: teal; */
+}
+
+.nav-links .item {
 }
 
 .nav-links {
   display: flex;
   margin-left: 93px;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
 }
 
 .nav-links .item:not(:first-child) {
@@ -127,7 +130,7 @@ ul {
 .header-contacts {
   display: flex;
   margin-left: auto;
-  background-color: darkorchid;
+  /* background-color: darkorchid; */
 }
 
 .header-contacts .item:not(:first-child) {
