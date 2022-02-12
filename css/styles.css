@@ -46,6 +46,8 @@ ul {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .section {
   padding-top: 94px;
@@ -56,7 +58,7 @@ ul {
 
 /* ЛОГО */
 
-.section-header {
+.border-bottom-style {
   border-bottom: 1px solid #ececec;
 }
 
@@ -68,8 +70,8 @@ ul {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  /* padding-top: 32px; */
-  margin: 25px 0;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .studio-black {
@@ -89,6 +91,7 @@ ul {
 .main-nav {
   display: flex;
   align-items: center;
+  background-color: tomato;
 }
 
 .nav-links {
@@ -239,7 +242,7 @@ ul {
   background-color: #f5f4fa;
 }
 
-.our-team .section-header {
+.section-header-team {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -296,11 +299,11 @@ ul {
 }
 
 .logo-footer {
-  margin: 0;
+  display: block;
+  margin-bottom: 20px;
+  padding: 0;
 }
-.footer-adress {
-  margin-top: 20px;
-}
+
 .footer-adress .item {
   margin-bottom: 9px;
 }
@@ -391,7 +394,7 @@ ul {
 .work-sectors .image {
   display: block;
   width: 370px;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .work-sectors .header {
