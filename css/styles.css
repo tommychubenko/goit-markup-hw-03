@@ -58,7 +58,7 @@ ul {
 
 /* ЛОГО */
 
-.border-bottom-style {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -165,7 +165,7 @@ ul {
   padding-bottom: 200px;
 }
 
-.hero .header {
+.hero .title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -202,7 +202,7 @@ ul {
   margin-right: 0;
 }
 
-.unique-list .header {
+.unique-list .title {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -223,7 +223,7 @@ ul {
   padding-top: 0;
 }
 
-.images-samples .header {
+.images-samples .title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -405,7 +405,7 @@ ul {
   /* background-color: aqua; */
 }
 
-.work-sectors .header {
+.work-sectors .title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
