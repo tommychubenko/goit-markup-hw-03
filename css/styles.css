@@ -77,6 +77,10 @@ ul {
   width: 145px;
 }
 
+.web {
+  color: var(--accent-text-color);
+}
+
 .studio-black {
   color: var(--primary-text-color);
 }
@@ -93,6 +97,7 @@ ul {
 
 .main-nav {
   display: flex;
+  align-items: center;
   /* background-color: teal; */
 }
 
